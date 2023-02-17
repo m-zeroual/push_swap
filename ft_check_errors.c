@@ -6,16 +6,16 @@
 /*   By: mzeroual <mzeroual@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/09 21:42:02 by mzeroual          #+#    #+#             */
-/*   Updated: 2023/02/16 09:37:30 by mzeroual         ###   ########.fr       */
+/*   Updated: 2023/02/17 11:11:54 by mzeroual         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-long long	convert_to_int(const char *s)
+long	convert_to_int(const char *s)
 {
-	int			i;
-	long long	n;
+	int		i;
+	long	n;
 
 	i = 1;
 	n = 0;
@@ -40,10 +40,10 @@ long long	convert_to_int(const char *s)
 
 int	repeat_number(char **str)
 {
-	int			i;
-	int			j;
-	long long	n1;
-	long long	n2;
+	int		i;
+	int		j;
+	long	n1;
+	long	n2;
 
 	i = 0;
 	n1 = 0;
@@ -60,7 +60,8 @@ int	repeat_number(char **str)
 			j++;
 		}
 		if (!(n1 >= -2147483648 && n1 <= 2147483647)
-			|| !(n2 >= -2147483648 && n2 <= 2147483647))
+			|| !(n2 >= -2147483648 && n2 <= 2147483647)
+			|| ft_strlen(str[i]) > 11)
 			return (0);
 		i++;
 	}
