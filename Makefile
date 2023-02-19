@@ -6,12 +6,13 @@
 #    By: mzeroual <mzeroual@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/25 20:11:19 by mzeroual          #+#    #+#              #
-#    Updated: 2023/02/17 09:09:06 by mzeroual         ###   ########.fr        #
+#    Updated: 2023/02/19 16:07:20 by mzeroual         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 SRC = 	main.c\
 		push_swap.c\
+		len.c\
 		pop_push_function.c\
 		rule1.c\
 		rule2.c\
@@ -29,6 +30,7 @@ SRC = 	main.c\
 		
 SRCB =  checker.c\
 		utils_checker.c\
+		len.c\
 		push_swap.c\
 		pop_push_function.c\
 		rule1.c\

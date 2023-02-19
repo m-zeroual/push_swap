@@ -6,7 +6,7 @@
 /*   By: mzeroual <mzeroual@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/26 16:08:29 by mzeroual          #+#    #+#             */
-/*   Updated: 2023/02/19 15:04:37 by mzeroual         ###   ########.fr       */
+/*   Updated: 2023/02/19 16:10:02 by mzeroual         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -123,5 +123,8 @@ void		print_res(char *s, int n);
 void		read_inst(t_sort *s);
 void		do_instraction(t_sort *s, char *input);
 void		check_correct_input(char *input);
+
+// len.c
+int			len(char *s);
 
 #endif
