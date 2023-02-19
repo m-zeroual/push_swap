@@ -6,7 +6,7 @@
 /*   By: mzeroual <mzeroual@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/26 16:08:29 by mzeroual          #+#    #+#             */
-/*   Updated: 2023/02/15 20:13:36 by mzeroual         ###   ########.fr       */
+/*   Updated: 2023/02/19 15:04:37 by mzeroual         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -120,7 +120,7 @@ void		push_swap(t_sort *s, int ac, char **av);
 // utils_checker.c
 void		free_p(char *p, int ex);
 void		print_res(char *s, int n);
-void		ft(t_sort *s);
+void		read_inst(t_sort *s);
 void		do_instraction(t_sort *s, char *input);
 void		check_correct_input(char *input);
 

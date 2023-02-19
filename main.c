@@ -6,7 +6,7 @@
 /*   By: mzeroual <mzeroual@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/26 16:09:04 by mzeroual          #+#    #+#             */
-/*   Updated: 2023/02/15 10:21:01 by mzeroual         ###   ########.fr       */
+/*   Updated: 2023/02/19 15:01:03 by mzeroual         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,4 +20,5 @@ int	main(int ac, char *av[])
 	s.stack_b = 0;
 	if (ac != 1)
 		push_swap(&s, ac, av);
+	return (0);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mzeroual <mzeroual@student.1337.ma>        +#+  +:+       +#+        */
+/*   By: mzeroual <mzeroual@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/04 19:16:10 by mzeroual          #+#    #+#             */
-/*   Updated: 2022/10/10 17:01:26 by mzeroual         ###   ########.fr       */
+/*   Updated: 2023/02/17 15:36:29 by mzeroual         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,5 +37,6 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		i++;
 	}
 	p[i] = 0;
+	free((char *)s1);
 	return (p);
 }

@@ -6,7 +6,7 @@
 /*   By: mzeroual <mzeroual@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 19:25:03 by mzeroual          #+#    #+#             */
-/*   Updated: 2023/02/16 09:55:35 by mzeroual         ###   ########.fr       */
+/*   Updated: 2023/02/19 15:04:23 by mzeroual         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ void	do_instraction(t_sort *s, char *input)
 	free(input);
 }
 
-void	ft(t_sort *s)
+void	read_inst(t_sort *s)
 {
 	int		check;
 	char	input[2];
